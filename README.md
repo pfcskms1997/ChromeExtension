@@ -3,4 +3,4 @@
 
 |             Directory             |             Description             |
 | :-------------------------------: | :-------------------------------:   |
-| [YoutubeAdBlock](YoutubeAdBlock)  | Youtube 영상 광고 제거 Extension     |
+| [YoutubeAdBlocker](YoutubeAdBlocker)  | Youtube 영상 광고 제거 Extension     |

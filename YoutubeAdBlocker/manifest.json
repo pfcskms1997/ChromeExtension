@@ -1,0 +1,26 @@
+{
+    "name": "Youtube Ad Blocker",
+    "description": "YouTube Ad Blocking Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "32": "/images/icon_32.png",
+        "48": "/images/icon_48.png",
+        "128": "/images/icon_128.png"
+    },
+    "action": {
+        "default_popup": "/popup.html",
+        "default_icon": {
+            "32": "/images/icon_32.png",
+            "48": "/images/icon_48.png",
+            "128": "/images/icon_128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "css": [],
+            "js": ["content.js"]
+        }
+    ]
+}
